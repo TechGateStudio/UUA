@@ -1,0 +1,17 @@
+{
+    "legacy_addon_id": "",
+    "title": "[TG] User Upgrade Alert",
+    "description": "",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "West",
+    "dev_url": "",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": {
+        "XFI": "https://xenforo.info/members/22547/",
+        "GitHub": "https://github.com/TechGateStudio/BanList"
+    },
+    "require": [],
+    "icon": ""
+}

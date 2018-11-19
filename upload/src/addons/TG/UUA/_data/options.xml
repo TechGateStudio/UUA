@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="tg_uua_users" edit_format="username" data_type="array">
+    <default_value>[]</default_value>
+    <sub_options>*</sub_options>
+    <relation group_id="tg_uua" display_order="1"/>
+  </option>
+</options>

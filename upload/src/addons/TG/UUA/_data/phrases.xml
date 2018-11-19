@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.tg_uua_users" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Users]]></phrase>
+  <phrase title="option_explain.tg_uua_users" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Users who need to send an alert.]]></phrase>
+  <phrase title="option_group.tg_uua" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[[TG] User Upgrade Alert]]></phrase>
+  <phrase title="option_group_description.tg_uua" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="tg_uua_x_just_bought_y" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[{user} just bought {upgrade} upgrade.]]></phrase>
+</phrases>

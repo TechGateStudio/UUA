@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Service\\User\\Upgrade",
+    "to_class": "TG\\UUA\\XF\\Service\\User\\Upgrade",
+    "execute_order": 10,
+    "active": true
+}

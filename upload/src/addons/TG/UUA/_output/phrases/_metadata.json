@@ -1,0 +1,32 @@
+{
+    "option.tg_uua_users.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f9aae5fda8d810a29f12d1e61b4ab25f"
+    },
+    "option_explain.tg_uua_users.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8010342add99d0b99e61db1ad9ef9f8f"
+    },
+    "option_group.tg_uua.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "ec0175d28bb482cc8818801b896c40ab"
+    },
+    "option_group_description.tg_uua.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "tg_uua_x_just_bought_y.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "65de193eacaa45f0ba2c6ba71a019588"
+    }
+}

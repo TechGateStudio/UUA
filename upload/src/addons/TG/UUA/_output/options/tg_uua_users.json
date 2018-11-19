@@ -1,0 +1,14 @@
+{
+    "edit_format": "username",
+    "edit_format_params": "",
+    "data_type": "array",
+    "sub_options": [
+        "*"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "[]",
+    "relations": {
+        "tg_uua": 1
+    }
+}

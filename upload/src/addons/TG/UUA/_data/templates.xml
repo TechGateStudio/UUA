@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="alert_user_tguua" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[{{ phrase('tg_uua_x_just_bought_y', {
+	'user': '<a href="' . base_url($extra.link) . '" class="fauxBlockLink-blockLink">' . $extra.user . '</a>',
+	'upgrade': $extra.upgrade
+}) }}]]></template>
+</templates>
