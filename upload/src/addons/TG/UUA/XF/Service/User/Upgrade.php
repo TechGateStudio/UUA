@@ -41,22 +41,19 @@ class Upgrade extends XFCP_Upgrade
 		/** @var \XF\Repository\UserAlert $alertRepo */
 		$alertRepo = $this->repository('XF:UserAlert');
 		$alertRepo->fastDeleteAlertsFromUser($user->user_id, 'user', $user->user_id, 'upgrade_end');
-
-        //$userIds = \XF::app()->options()->thDonate_user_notification;
-		
+	
 
 		$alertUsers = $this->finder('XF:User')
 			->where('user_id', '=', \XF::app()->options()->tg_uua_users)->fetch();
 
 		foreach ($alertUsers as $alertUser) {
 			$extra = [
-				'link' => \XF::app()->router('public')->buildLink('members', $alertUser), 
+				'link' => \XF::app()->router('public')->buildLink('members', $user), 
 				'upgrade' => $upgrade->title,
 				'user' => $user->username
 			];
 
 			$alertRepo->alert($alertUser, $user->user_id, '', 'user', $user->user_id, 'tguua', $extra);
-			\XF::logError('all ok');
 		}
 		$db->commit();
 
